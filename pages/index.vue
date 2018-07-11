@@ -27,11 +27,21 @@
                         <input type="text" class="kuang-in fll":placeholder="placeholderText" v-model="searchText">
                         <span class="kuang-btn fll" @click="handleSearch">搜索</span>
                         <span class="map fll" v-if="seletedIndex<3"><img style='vertical-align:middle;' src="../assets/img/mapSearch.png">地图找房</span>
-                        <ul class="pre-search">
-                            <li v-for="item in searchData">我是测试内容</li>
-                            <li v-for="item in searchData">我是测试内容</li>
-                            <li v-for="item in searchData">我是测试内容</li>
+                        <ul class="pre-search" v-show="isSearch">
+                            <li v-for="item in searchData" @click="handleFind">{{item.title}}</li>
                         </ul>
+                    </div>
+                </div>
+                <div class="bottom-slider" style="height: 30px">
+                    <div class="headline-wrap" style="float: left;">
+                        <img src="../assets/img/头条.png">
+                    </div>
+                    <div v-swiper:headlineSwiper="headlineOption" style="line-height: 30px;overflow: hidden;float: left;height: 30px;margin-left: 15px;">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" v-for="(item,index) in headlineData">
+                                <nuxt-link to="#" class="swiper-link" key="index">{{item.title}}</nuxt-link>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -119,8 +129,10 @@ export default {
     components: {headerone,headerthree,rightfix},
   async asyncData () {
       let bannerData = await axios.get(api.paramToUrl(api.adLists,{type: 0,position:0}))
+      let headlineData = await axios.get(api.paramToUrl(api.encyTop,{page_num: 0,page_size:10}))
       return{
           banners: bannerData.data.data,
+          headlineData:headlineData.data.datas[0],
       }
   },
   head () {
@@ -132,6 +144,17 @@ export default {
         return{
             seletedIndex:0,
             placeholderText:"输入小区名查找二手房",
+            swiperOption:{
+                autoplay:false
+            },
+            headlineOption:{
+                autoplay:true,
+                direction:'vertical',
+                loop:true
+            },
+            searchData:[],
+            searchText:"",
+            isSearch:false
         }
     },
     watch:{
@@ -152,6 +175,19 @@ export default {
                 case 4:
                     this.placeholderText="找小区要输入小区名";
                     break;
+            }
+        },
+        searchText(val) {
+            if(val.trim()!=""){
+                this.isSearch = true;
+                axios.get(api.paramToUrl(api.used_lists, {title: val})).then(res => {
+                    this.searchData = res.data.data;
+                }).catch(err => {
+                    console.log(err)
+                })
+            }
+            else {
+                this.isSearch = false;
             }
         }
     },
@@ -185,6 +221,18 @@ export default {
             }
             setBannerHeight();
             window.onresize=setBannerHeight
+        }
+    },
+    methods:{
+        handleFind(){
+            console.log('查找')
+        },
+        handleSearch(){
+            let selected =this.seletedIndex;
+            switch(selected){
+                case 0:
+                    this.$router.push({name:"secondHand",query:{q:this.searchText}})
+            }
         }
     }
 }
@@ -433,5 +481,29 @@ export default {
       width: 20px;
       height: 20px;
       margin-right: 10px;
+  }
+  .shuru .pre-search{
+      /*display: none;*/
+      height: 385px;
+      overflow: auto;
+      background: #fff;
+      color: #666;
+      margin: 0;
+      padding: 0;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+      width: 708px;
+      border: 1px solid #ccc;
+  }
+  .shuru .pre-search li{
+      padding: 15px;
+      color: #666;
+  }
+    .bottom-slider{
+        margin-top: 95px;
+        padding-left: 40px;
+    }
+  .bottom-slider .swiper-link{
+      color: #fff;
   }
 </style>
