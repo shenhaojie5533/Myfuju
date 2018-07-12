@@ -76,7 +76,7 @@
     text-align: center;
 }
 .list .fll {
-    margin-left: 35px;
+    margin-right: 35px;
     line-height: 60px;
 }
 

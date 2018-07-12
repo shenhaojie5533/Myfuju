@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af5c00ff-dc1b-43a9-92e6-f770013cb385" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/cst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/myZoom.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/housedetail.vue" afterDir="false" />
+    <list default="true" id="af5c00ff-dc1b-43a9-92e6-f770013cb385" name="Default" comment="头部边距修改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iconfont.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/headertwo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/headertwo.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,7 +23,7 @@
       <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="27">
               <caret line="36" column="54" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="54" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -41,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="headerthree.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/headerthree.vue">
+      <file leaf-file-name="headertwo.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/headertwo.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="108" column="20" lean-forward="true" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
+            <state relative-caret-position="405">
+              <caret line="78" column="23" lean-forward="true" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -53,8 +49,8 @@
       <file leaf-file-name="ershou.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/ershou.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15552">
-              <caret line="603" column="5" lean-forward="true" selection-start-line="597" selection-start-column="3" selection-end-line="603" selection-end-column="5" />
+            <state relative-caret-position="16146">
+              <caret line="603" column="5" selection-start-line="597" selection-start-column="3" selection-end-line="603" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#1;n#div#3;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#h2#0;n#div#2;n#div#3;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -68,7 +64,7 @@
       <file leaf-file-name="registe.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/registe.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="891">
+            <state relative-caret-position="1080">
               <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
               <folding>
                 <element signature="e#1714#1749#0" expanded="true" />
@@ -77,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="housedetail.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="housedetail.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/housedetail.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1053">
-              <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+            <state relative-caret-position="1274">
+              <caret line="109" column="23" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
               <folding>
                 <element signature="e#1478#1524#0" expanded="true" />
               </folding>
@@ -89,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myZoom.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="myZoom.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/myZoom.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1885">
-              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="46" />
+            <state relative-caret-position="452">
+              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -138,10 +134,10 @@
         <option value="$PROJECT_DIR$/pages/ershou.vue" />
         <option value="$PROJECT_DIR$/pages/index.vue" />
         <option value="$PROJECT_DIR$/components/headerthree.vue" />
-        <option value="$PROJECT_DIR$/components/headertwo.vue" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/assets/css/iconfont.css" />
         <option value="$PROJECT_DIR$/components/sdfgh.vue" />
+        <option value="$PROJECT_DIR$/components/headertwo.vue" />
         <option value="$PROJECT_DIR$/pages/housedetail.vue" />
         <option value="$PROJECT_DIR$/components/myZoom.vue" />
       </list>
@@ -170,6 +166,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,7 +219,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,7 +237,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -323,11 +319,12 @@
       <workItem from="1531215236036" duration="2755000" />
       <workItem from="1531275521393" duration="4772000" />
       <workItem from="1531296726146" duration="10930000" />
+      <workItem from="1531360283624" duration="2450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="311588000" />
+    <option name="totallyTimeSpent" value="314038000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,9 +337,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.49310872" visible="true" weight="0.15104167" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49310872" visible="true" weight="0.15104167" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32924962" />
+      <window_info anchor="bottom" id="Messages" weight="0.3297546" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -365,19 +364,19 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="1" sideWeight="0.50382847" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.49310872" visible="true" weight="0.0014880953" />
       <window_info id="Structure" order="0" sideWeight="0.50689125" side_tool="true" visible="true" weight="0.0014880953" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32924962" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32924962" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32924962" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924962" />
       <window_info id="Favorites" order="2" sideWeight="0.50382847" side_tool="true" weight="0.18229167" />
     </layout-to-restore>
   </component>
@@ -386,6 +385,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="头部边距修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="头部边距修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -410,6 +413,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pages/housedetail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <folding>
+            <element signature="e#1478#1524#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/myZoom.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/headerone.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1323">
@@ -612,9 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,7 +726,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/registe.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
+        <state relative-caret-position="1080">
           <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
           <folding>
             <element signature="e#1714#1749#0" expanded="true" />
@@ -724,41 +741,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/headertwo.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/headerthree.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="108" column="20" lean-forward="true" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/iconfont.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1242">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#255#5296#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/sdfgh.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/components/sdfgh.vue" />
     <entry file="file://$PROJECT_DIR$/pages/ershou.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15552">
-          <caret line="603" column="5" lean-forward="true" selection-start-line="597" selection-start-column="3" selection-end-line="603" selection-end-column="5" />
+        <state relative-caret-position="16146">
+          <caret line="603" column="5" selection-start-line="597" selection-start-column="3" selection-end-line="603" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#1;n#div#3;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#h2#0;n#div#2;n#div#3;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -768,9 +762,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/headerthree.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2916">
+          <caret line="108" column="20" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="27">
           <caret line="36" column="54" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="54" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -783,26 +784,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/housedetail.vue">
+    <entry file="file://$PROJECT_DIR$/components/headertwo.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-          <folding>
-            <element signature="e#1478#1524#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="78" column="23" lean-forward="true" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/测试图.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/ceshi.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/myZoom.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1885">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="46" />
+        <state relative-caret-position="452">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/housedetail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1274">
+          <caret line="109" column="23" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
+          <folding>
+            <element signature="e#1478#1524#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
